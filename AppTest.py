@@ -9,12 +9,12 @@ import cloudinary
 app = Flask(__name__)
 
 cloudinary.config(
-    #cloud_name=os.environ.get('CLOUDINARY_CLOUD_NAME'),
-    #api_key=os.environ.get('CLOUDINARY_API_KEY'),
-    #api_secret=os.environ.get('CLOUDINARY_API_SECRET')
-    cloud_name='ddqjcxii6',
-    api_key='196691329517392',
-    api_secret='ebDQHi4E6HWh6Wf7WeRMVEEOLnQ'
+    cloud_name=os.environ.get('CLOUDINARY_CLOUD_NAME'),
+    api_key=os.environ.get('CLOUDINARY_API_KEY'),
+    api_secret=os.environ.get('CLOUDINARY_API_SECRET')
+    #cloud_name='ddqjcxii6',
+    #api_key='196691329517392',
+    #api_secret='ebDQHi4E6HWh6Wf7WeRMVEEOLnQ'
 
 )
 
